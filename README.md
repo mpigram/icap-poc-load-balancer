@@ -60,10 +60,9 @@ az network traffic-manager profile create --name $PROFILE_NAME \
     --resource-group $RESOURCE_GROUP \
     --routing-method Weighted \
     --unique-dns-name $DNS_NAME \
-    --protocol HTTP \
+    --protocol TCP \
     --status enabled \
-    --port 80 \
-    --status Enabled \
+    --port 1344 \
     --ttl 10
 
 for CONTAINER_FQDN in "${CONTAINER_FQDNS[@]}" ; do
