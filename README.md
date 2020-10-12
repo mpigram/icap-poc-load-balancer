@@ -12,7 +12,7 @@ Repo containing the C-ICAP POC: https://github.com/filetrust/c-icap
 **Key requirements:** 
 
 - Additional Endpoints for ICAP
-- Public load balancer for port 1433
+- Public load balancer for port 1444
 - Initial config to distribute to all ICAP endpoints
 - Documentation on how to add / remove endpoints from the load balancer
   
